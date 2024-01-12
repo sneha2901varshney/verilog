@@ -4,10 +4,7 @@ module half_subtractor (input a,
                        output reg d,
                        output reg borrow);
 
-  wire x;
-
-  XOR(d,a,b);
-  NOT(x,a);
-  AND(borrow,x,b);
+  assign d = a^b;
+  assign borrow = (~a)&b;
   
   endmodule
