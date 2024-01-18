@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module demux4_1 ( input a, 
+module demux2_1 ( input a, 
                  input s,
                  output I0,
                  output I1);
