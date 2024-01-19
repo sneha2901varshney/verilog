@@ -2,10 +2,10 @@
 
 module decoder_2to4 (input a,
                      input b,
-                     output reg y0,
-                     output regy1,
-                     output reg y2,
-                     output reg y3);
+                     output  y0,
+                     output y1,
+                     output  y2,
+                     output y3);
   
 wire abar, bbar;
 
