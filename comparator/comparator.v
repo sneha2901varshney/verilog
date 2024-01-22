@@ -13,7 +13,7 @@ module comparator(input a,
       s=1;
       else if (a ==1 & b==0)
         g=1;
-      else(a==1 & b==1);
+      else
       e=1;
     end
 
