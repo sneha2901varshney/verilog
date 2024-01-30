@@ -16,7 +16,6 @@ module comparator(input a,
       else
       e=1;
     end
-
 endmodule
       
     
