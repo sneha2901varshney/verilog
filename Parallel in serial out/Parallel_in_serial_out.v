@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module parallel_in_serial_out  (   
+module Parallel_in_serial_out  (   
     input clk, reset, load, 
     input [2:0]parallel_in,
     output serial_out
