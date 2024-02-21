@@ -24,7 +24,7 @@ module moore_fsm(input clk,
     end
 
   always@(ps or x)
-    beg
+    begin
     case(ps)
       s0 :  ns= x ? s1 : s0;
         s1:   ns= x ? s2 : s0;
