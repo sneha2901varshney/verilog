@@ -1,4 +1,4 @@
-`tiescale 1ns/1ps
+`timescale 1ns/1ps
 
 
 module meelay_fsm(input clk,
