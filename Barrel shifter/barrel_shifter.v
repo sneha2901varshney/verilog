@@ -35,7 +35,6 @@ endmodule
   endmodule     
 
 
-////////////////////////////////////////////////////
 
 module barrel_shifter(
     input [7:0] data,
