@@ -24,7 +24,7 @@ module meelay_fsm(input clk,
     end
 
   always@(ps or x)
-    beg
+    begin
     case(ps)
       s0: begin
         ns= x ? s1 : s0;
