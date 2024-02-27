@@ -61,7 +61,7 @@ module T_flipflop(
 endmodule 
 
 
-module D_using_SR_JK_T(
+module d_flip_flop(
     input clk, reset, D,
     output Q_sr, Q_jk, Q_t
     );
