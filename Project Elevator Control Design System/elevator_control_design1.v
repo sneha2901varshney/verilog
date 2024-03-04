@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+`timescale 1ns\1ps
 
 module elevator_control_design1(clk, 
 reset,
